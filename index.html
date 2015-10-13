@@ -8,14 +8,6 @@
   <link rel="stylesheet" href="css/main.css">
   <script src="bower_components\angular\angular.min.js"></script>
   <script src="app.js"></script>
-<<<<<<< HEAD
-
-||||||| merged common ancestors
-
-
-
-=======
->>>>>>> master
 </head>
 
 <body >
@@ -23,7 +15,6 @@
   <h1> Your Favorite Instructors </h1>
   <div ng-controller="Controller">
     <!--  Traverses $scope.students in app.js controller -->
-<<<<<<< HEAD
     <div ng-repeat="instructor in instructors | orderBy:orderProperty">
       <img ng-src={{instructor.image}} width='100px'>
 
@@ -46,16 +37,6 @@
       </div>
 
       <hr>
-||||||| merged common ancestors
-    <div ng-repeat="student in students | orderBy:orderProp">
-      <!-- Custom directives -->
-      <student-avatar></student-avatar>
-      <student-namecard></student-namecard>
-      <hr>
-=======
-    <div ng-repeat="instructor in instructors">
-      {{instructor.name}} {{instructor.github}} {{instructor.cohort}}
->>>>>>> master
     </div>
   </div>
 </body>
